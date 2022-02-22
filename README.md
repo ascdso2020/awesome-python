@@ -40,6 +40,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     - [E-commerce](#e-commerce)
     - [Editor Plugins and IDEs](#editor-plugins-and-ides)
     - [Email](#email)
+    - [Enterprise Application Integrations](#enterprise-application-integrations)
     - [Environment Management](#environment-management)
     - [Files](#files)
     - [Foreign Function Interface](#foreign-function-interface)
@@ -77,6 +78,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     - [Search](#search)
     - [Serialization](#serialization)
     - [Serverless Frameworks](#serverless-frameworks)
+    - [Shell](#shell)
     - [Specific Formats Processing](#specific-formats-processing)
     - [Static Site Generator](#static-site-generator)
     - [Tagging](#tagging)
@@ -113,7 +115,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [django-xadmin](https://github.com/sshwsfc/xadmin) - Drop-in replacement of Django admin comes with lots of goodies.
 * [flask-admin](https://github.com/flask-admin/flask-admin) - Simple and extensible administrative interface framework for Flask.
 * [flower](https://github.com/mher/flower) - Real-time monitor and web admin for Celery.
-* [jet-bridge](https://github.com/jet-admin/jet-bridge) - Admin panel framework for any application with nice UI (ex Jet Django)
+* [jet-bridge](https://github.com/jet-admin/jet-bridge) - Admin panel framework for any application with nice UI (ex Jet Django).
 * [wooey](https://github.com/wooey/wooey) - A Django app which creates automatic web UIs for Python scripts.
 
 ## Algorithms and Design Patterns
@@ -152,8 +154,8 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * Audio
     * [audioread](https://github.com/beetbox/audioread) - Cross-library (GStreamer + Core Audio + MAD + FFmpeg) audio decoding.
     * [dejavu](https://github.com/worldveil/dejavu) - Audio fingerprinting and recognition.
-    * [kapre](https://github.com/keunwoochoi/kapre) - Keras Audio Preprocessors
-    * [librosa](https://github.com/librosa/librosa) - Python library for audio and music analysis
+    * [kapre](https://github.com/keunwoochoi/kapre) - Keras Audio Preprocessors.
+    * [librosa](https://github.com/librosa/librosa) - Python library for audio and music analysis.
     * [matchering](https://github.com/sergree/matchering) - A library for automated reference audio mastering.
     * [mingus](http://bspaans.github.io/python-mingus/) - An advanced music theory and notation package with MIDI file and playback support.
     * [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) - Audio feature extraction, classification, segmentation and applications.
@@ -381,8 +383,8 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 * [Altair](https://github.com/altair-viz/altair) - Declarative statistical visualization library for Python.
 * [Bokeh](https://github.com/bokeh/bokeh) - Interactive Web Plotting for Python.
-* [bqplot](https://github.com/bloomberg/bqplot) - Interactive Plotting Library for the Jupyter Notebook
-* [Cartopy](https://github.com/SciTools/cartopy) - A cartographic python library with matplotlib support
+* [bqplot](https://github.com/bloomberg/bqplot) - Interactive Plotting Library for the Jupyter Notebook.
+* [Cartopy](https://github.com/SciTools/cartopy) - A cartographic python library with matplotlib support.
 * [Dash](https://plot.ly/products/dash/) - Built on top of Flask, React and Plotly aimed at analytical web applications.
     * [awesome-dash](https://github.com/Acrotrend/awesome-dash)
 * [diagrams](https://github.com/mingrammer/diagrams) - Diagram as Code.
@@ -412,9 +414,12 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * PostgreSQL - [awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)
     * [psycopg2](http://initd.org/psycopg/) - The most popular PostgreSQL adapter for Python.
     * [queries](https://github.com/gmr/queries) - A wrapper of the psycopg2 library for interacting with PostgreSQL.
+* SQlite - [awesome-sqlite](https://github.com/planetopendata/awesome-sqlite)
+    * [sqlite3](https://docs.python.org/3/library/sqlite3.html) - (Python standard library) SQlite interface compliant with DB-API 2.0
+    * [SuperSQLite](https://github.com/plasticityai/supersqlite) - A supercharged SQLite library built on top of [apsw](https://github.com/rogerbinns/apsw).
 * Other Relational Databases
     * [pymssql](https://pymssql.readthedocs.io/en/latest/) - A simple database interface to Microsoft SQL Server.
-    * [SuperSQLite](https://github.com/plasticityai/supersqlite) - A supercharged SQLite library built on top of [apsw](https://github.com/rogerbinns/apsw).
+    * [clickhouse-driver](https://github.com/mymarilyn/clickhouse-driver) - Python driver with native interface for ClickHouse.
 * NoSQL Databases
     * [cassandra-driver](https://github.com/datastax/python-driver) - The Python Driver for Apache Cassandra.
     * [happybase](https://github.com/wbolster/happybase) - A developer-friendly library for Apache HBase.
@@ -457,7 +462,6 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * Profiler
     * [line_profiler](https://github.com/rkern/line_profiler) - Line-by-line profiling.
     * [memory_profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code.
-    * [profiling](https://github.com/what-studio/profiling) - An interactive Python profiler.
     * [py-spy](https://github.com/benfred/py-spy) - A sampling profiler for Python programs. Written in Rust.
     * [pyflame](https://github.com/uber/pyflame) - A ptracing profiler For Python.
     * [vprof](https://github.com/nvdv/vprof) - Visual Python profiler.
@@ -598,6 +602,12 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [flanker](https://github.com/mailgun/flanker) - An email address and Mime parsing library.
     * [mailer](https://github.com/marrow/mailer) - High-performance extensible mail delivery framework.
 
+## Enterprise Application Integrations
+
+*Platforms and tools for systems integrations in enterprise environments*
+
+* [Zato](https://zato.io) - ESB, SOA, REST, APIs and Cloud Integrations in Python.
+
 ## Environment Management
 
 *Libraries for Python version and virtual environment management.*
@@ -646,7 +656,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [fn.py](https://github.com/kachayev/fn.py) - Functional programming in Python: implementation of missing features to enjoy FP.
 * [funcy](https://github.com/Suor/funcy) - A fancy and practical functional tools.
 * [more-itertools](https://github.com/erikrose/more-itertools) - More routines for operating on iterables, beyond `itertools`.
-* [returns](https://github.com/dry-python/returns) - A set of type-safe monads, tranformers, and composition utilities.
+* [returns](https://github.com/dry-python/returns) - A set of type-safe monads, transformers, and composition utilities.
 * [Toolz](https://github.com/pytoolz/toolz) - A collection of functional utilities for iterators, functions, and dictionaries.
 
 ## GUI Development
@@ -683,7 +693,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 *Awesome game development libraries.*
 
-* [Arcade](https://arcade.academy/index.html) - Arcade is a modern Python framework for crafting games with compelling graphics and sound.
+* [Arcade](https://api.arcade.academy/en/latest/) - Arcade is a modern Python framework for crafting games with compelling graphics and sound.
 * [Cocos2d](http://cocos2d.org/) - cocos2d is a framework for building 2D games, demos, and other graphical/interactive applications.
 * [Harfang3D](http://www.harfang3d.com) - Python framework for 3D, VR and game development.
 * [Panda3D](https://www.panda3d.org/) - 3D game engine developed by Disney.
@@ -702,7 +712,6 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [GeoIP](https://github.com/maxmind/geoip-api-python) - Python API for MaxMind GeoIP Legacy Database.
 * [geojson](https://github.com/frewsxcv/python-geojson) - Python bindings and utilities for GeoJSON.
 * [geopy](https://github.com/geopy/geopy) - Python Geocoding Toolbox.
-* [pygeoip](https://github.com/appliedsec/pygeoip) - Pure Python GeoIP API.
 
 ## HTML Manipulation
 
@@ -741,7 +750,6 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Pingo](http://www.pingo.io/) - Pingo provides a uniform API to program devices like the Raspberry Pi, pcDuino, Intel Galileo, etc.
 * [PyUserInput](https://github.com/SavinaRoja/PyUserInput) - A module for cross-platform control of the mouse and keyboard.
 * [scapy](https://github.com/secdev/scapy) - A brilliant packet manipulation library.
-* [wifi](https://github.com/rockymeza/wifi) - A Python library and command line tool for working with WiFi on Linux.
 
 ## Image Processing
 
@@ -1064,6 +1072,12 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [python-lambda](https://github.com/nficano/python-lambda) - A toolkit for developing and deploying Python code in AWS Lambda.
 * [Zappa](https://github.com/Miserlou/Zappa) - A tool for deploying WSGI applications on AWS Lambda and API Gateway.
 
+## Shell
+
+*Shells based on Python.*
+
+* [xonsh](https://github.com/xonsh/xonsh/) - A Python-powered, cross-platform, Unix-gazing shell language and command prompt.
+
 ## Specific Formats Processing
 
 *Libraries for parsing and manipulating specific text formats.*
@@ -1115,7 +1129,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Libraries for working with task queues.*
 
 * [celery](https://docs.celeryproject.org/en/stable/) - An asynchronous task queue/job queue based on distributed message passing.
-* [daramatiq](https://github.com/Bogdanp/dramatiq) - A fast and reliable background task processing library for Python 3.
+* [dramatiq](https://github.com/Bogdanp/dramatiq) - A fast and reliable background task processing library for Python 3.
 * [huey](https://github.com/coleifer/huey) - Little multi-threaded task queue.
 * [mrq](https://github.com/pricingassistant/mrq) - A distributed worker task queue in Python using Redis & gevent.
 * [rq](https://github.com/rq/rq) - Simple job queues for Python.
@@ -1160,7 +1174,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [VCR.py](https://github.com/kevin1024/vcrpy) - Record and replay HTTP interactions on your tests.
 * Object Factories
     * [factory_boy](https://github.com/FactoryBoy/factory_boy) - A test fixtures replacement for Python.
-    * [mixer](https://github.com/klen/mixer) - Another fixtures replacement. Supported Django, Flask, SQLAlchemy, Peewee and etc.
+    * [mixer](https://github.com/klen/mixer) - Another fixtures replacement. Supports Django, Flask, SQLAlchemy, Peewee and etc.
     * [model_mommy](https://github.com/vandersonmota/model_mommy) - Creating random fixtures for testing in Django.
 * Code Coverage
     * [coverage](https://pypi.org/project/coverage/) - Code coverage measurement.
@@ -1298,7 +1312,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *WSGI-compatible web servers.*
 
 * [bjoern](https://github.com/jonashaag/bjoern) - Asynchronous, very fast and written in C.
-* [gunicorn](https://github.com/benoitc/gunicorn) - Pre-forked, partly written in C.
+* [gunicorn](https://github.com/benoitc/gunicorn) - Pre-forked, ported from Ruby's Unicorn project.
 * [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) - A project aims at developing a full stack for building hosting services, written in C.
 * [waitress](https://github.com/Pylons/waitress) - Multi-threaded, powers Pyramid.
 * [werkzeug](https://github.com/pallets/werkzeug) - A WSGI utility library for Python that powers Flask and can easily be embedded into your own projects.
@@ -1310,6 +1324,7 @@ Where to discover learning resources or new Python libraries.
 ## Books
 
 - [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/)
+- [Think Python](https://greenteapress.com/wp/think-python-2e/)
 
 ## Websites
 
